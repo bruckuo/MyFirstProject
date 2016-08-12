@@ -9,7 +9,7 @@ import groovy.sql.Sql
  */
 class MySqlConnection {
     static void main(args) {
-        def db_url="jdbc:MySql://m3308i.test.db.dmall.com:3308/dmall_cms?characterEncoding=UTF-8"
+        def db_url="jdbc:MySql://127.0.0.1:3308/dmall_cms?characterEncoding=UTF-8"
         def username="devtest"
         def password="WDevTest@Dmall"
         def driverClass="com.mysql.jdbc.Driver"
